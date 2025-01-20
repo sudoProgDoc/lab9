@@ -1,11 +1,10 @@
 #include <iostream>
-#include <string.h>
 using namespace std;
 
 void task1(void)
 {
-    char s1[14] = { "Hello " };
-    char s2[7] = { "world!" };
+    char s1[14] = "Hello ";
+    char s2[] = "world!";
     strcat(s1, s2);
     cout << s1 << endl;
     cout << "Длина строки " << strlen(s1) << endl;
